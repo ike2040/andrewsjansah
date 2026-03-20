@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Products - Andrews Jhansah Enterprise</title>
+    <link rel="stylesheet" href="styles.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&family=Roboto:wght@300;400;500;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="container">
+            <a href="index.html" class="logo">
+                <span class="logo-main">ANDREWS <span class="logo-accent">JHANSAH</span></span>
+                <span class="logo-sub">ENTERPRISE</span>
+            </a>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <a href="contact.html" class="btn btn-primary nav-btn">
+                <i class="fas fa-phone"></i> Order Now
+            </a>
+            <button class="menu-toggle" id="menuToggle">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <header class="page-header">
+        <div class="container">
+            <h1>OUR <span class="text-orange">PRODUCTS</span></h1>
+            <p>Quality engines and genuine automotive parts</p>
+        </div>
+    </header>
+
+    <!-- Products Section -->
+    <section class="products" id="products">
+        <div class="container">
+            <div class="products-filter">
+                <div class="search-box">
+                    <i class="fas fa-search"></i>
+                    <input type="text" id="searchInput" placeholder="Search products...">
+                </div>
+                <div class="filter-buttons">
+                    <i class="fas fa-filter"></i>
+                    <button class="filter-btn active" data-filter="all">All</button>
+                    <button class="filter-btn" data-filter="engines">Engines</button>
+                    <button class="filter-btn" data-filter="parts">Parts</button>
+                </div>
+            </div>
+
+            <div class="products-grid" id="productsGrid">
+                <!-- Products will be loaded by JavaScript -->
+            </div>
+
+            <div class="products-note">
+                <p><span class="text-orange">*</span> Product inventory is regularly updated. Contact us for the latest
+                    availability.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Product Modal -->
+    <div class="modal" id="productModal">
+        <div class="modal-content">
+            <button class="modal-close" id="modalClose"><i class="fas fa-times"></i></button>
+            <div class="modal-body" id="modalBody">
+                <!-- Modal content loaded by JavaScript -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <div class="footer-logo">
+                        <h3>ANDREWS <span class="text-orange">JHANSAH</span></h3>
+                        <p>ENTERPRISE</p>
+                    </div>
+                    <p class="footer-text">Your trusted partner for car repairs and quality engine sales in Old Tafo. We
+                        deliver excellence with every service.</p>
+                    <div class="social-links">
+                        <a href="https://wa.me/233548714385" target="_blank" class="social-link whatsapp">
+                            <i class="fab fa-whatsapp"></i>
+                        </a>
+                        <a href="https://web.facebook.com/profile.php?id=61586616448147" target="_blank"
+                            class="social-link facebook">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="tel:0548714385" class="social-link phone">
+                            <i class="fas fa-phone"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="products.html">Products</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>Our Services</h4>
+                    <ul>
+                        <li>Car Repair</li>
+                        <li>Engine Sales</li>
+                        <li>Engine Installation</li>
+                        <li>Parts Supply</li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h4>Contact Info</h4>
+                    <ul>
+                        <li><i class="fas fa-map-marker-alt"></i> Old Tafo, Ghana</li>
+                        <li><i class="fas fa-phone"></i> 0548 714 385</li>
+                        <li><i class="fas fa-phone"></i> 0532 990 548</li>
+                        <li><a href="https://wa.me/233548714385" target="_blank"><i class="fab fa-whatsapp"></i>
+                                WhatsApp: 0548 714 385</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container">
+                <p>&copy; 2026 Andrews Jhansah Enterprise. All rights reserved.</p>
+                <p class="developer-credit">Software by Isaac Ofori | +233594844398</p>
+                <button class="back-to-top" id="backToTop">
+                    <span>Back to Top</span>
+                    <i class="fas fa-arrow-up"></i>
+                </button>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
