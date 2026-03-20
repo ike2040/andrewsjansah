@@ -45,8 +45,8 @@ To run this project locally, simply clone the repository and open `index.html` i
 
 If you have any questions or would like to collaborate, feel free to reach out:
 
-- **Email**: [andrewsjansah@example.com](mailto:andrewsjansah@example.com) (Update with your actual email)
+- **Email**: [isaac0594844398@gmail.com](mailto:isaac0594844398@gmail.com) (Update with your actual email)
 
 ---
 
-*Built with ❤️ by [Andrews Jansah](https://github.com/ike2040)*
+*Built with ❤️ by [Isaac Ofori](https://github.com/ike2040)*
